@@ -1,0 +1,48 @@
+{
+  "name": "csstree-cli",
+  "version": "1.0.0-alpha1",
+  "description": "CLI for CSSTree",
+  "keywords": [
+    "css",
+    "parser",
+    "ast",
+    "cli"
+  ],
+  "homepage": "https://github.com/csstree/cli",
+  "author": "Roman Dvornov <rdvornov@gmail.com>",
+  "license": "MIT",
+  "repository": "csstree/cli",
+  "bugs": {
+    "url": "https://github.com/csstree/cli/issues"
+  },
+  "bin": {
+    "csstree": "./bin/csstree"
+  },
+  "main": "./lib/index",
+  "eslintConfig": {
+    "env": {
+      "node": true,
+      "mocha": true,
+      "es6": true
+    },
+    "rules": {
+      "no-duplicate-case": 2,
+      "no-undef": 2,
+      "no-unused-vars": [2, {"vars": "all", "args": "after-used"}]
+    }
+  },
+  "scripts": {
+    "codestyle": "jscs lib && eslint lib"
+  },
+  "dependencies": {
+    "clap": "^1.1.1",
+    "css-tree": "csstree/csstree"
+  },
+  "devDependencies": {
+    "eslint": "^2.13.1",
+    "jscs": "~3.0.7"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
