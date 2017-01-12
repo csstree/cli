@@ -1,6 +1,6 @@
 {
   "name": "csstree-cli",
-  "version": "1.0.0-alpha1",
+  "version": "1.0.0",
   "description": "CLI for CSSTree",
   "keywords": [
     "css",
@@ -36,7 +36,7 @@
   },
   "dependencies": {
     "clap": "^1.1.1",
-    "css-tree": "csstree/csstree"
+    "css-tree": "1.0.0-alpha10"
   },
   "devDependencies": {
     "eslint": "^2.13.1",

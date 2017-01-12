@@ -1,3 +1,3 @@
-## 1.0.0 (October 16, 2016)
+## 1.0.0 (January 12, 2017)
 
-- Initial commit
+- Initial release
